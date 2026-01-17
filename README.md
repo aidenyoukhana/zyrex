@@ -5,7 +5,10 @@ A modern, contemporary workout app featuring **Maximoo** animated characters (po
 <img width="250" alt="Simulator Screen Recording - iPhone 17 Pro Max - 2026-01-17 at 12 49 40" src="https://github.com/user-attachments/assets/2b63cced-29b6-41af-8f16-25d70654bc42" />
 <img width="250" alt="Simulator Screenshot - iPhone 17 Pro Max - 2026-01-17 at 12 47 42" src="https://github.com/user-attachments/assets/2851df5b-e042-48ec-8c34-d8277e5861db" />
 <img width="250" alt="Simulator Screenshot - iPhone 17 Pro Max - 2026-01-17 at 13 02 04" src="https://github.com/user-attachments/assets/3c623c6d-ff71-4ddc-822f-0e37d0fc399c" />
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/a5635962-716f-42bb-9270-525f4866982e" />
 <img width="250" alt="Simulator Screenshot - iPhone 17 Pro Max - 2026-01-17 at 13 01 57" src="https://github.com/user-attachments/assets/a209ab66-697c-4934-87ec-f33351876824" />
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/a4181139-0b49-403b-a670-8ef8fa539bd3" />
+
 
 
 
