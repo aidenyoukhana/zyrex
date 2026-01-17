@@ -56,13 +56,13 @@ struct MaximooSceneView: UIViewRepresentable {
         cameraNode.name = "zyrexCamera"
         cameraNode.camera = SCNCamera()
         cameraNode.camera?.automaticallyAdjustsZRange = true
-        cameraNode.camera?.fieldOfView = 60
+        cameraNode.camera?.fieldOfView = 50
         cameraNode.camera?.zNear = 0.1
         cameraNode.camera?.zFar = 1000
         
-        // Position camera for full body view - centered on character, backed out
-        cameraNode.position = SCNVector3(0, 60, 350)   // Lower camera, further back
-        cameraNode.look(at: SCNVector3(0, 60, 0))      // Look at mid-body height
+        // Position camera for closer view - zoomed in on character
+        cameraNode.position = SCNVector3(0, 70, 220)   // Closer to character
+        cameraNode.look(at: SCNVector3(0, 70, 0))      // Look at mid-body height
         
         scene.rootNode.addChildNode(cameraNode)
         scnView.pointOfView = cameraNode

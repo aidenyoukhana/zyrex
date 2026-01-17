@@ -63,6 +63,10 @@ final class MaximooAnimationService {
                 .flattenScene: false
             ])
             characterNode = scene?.rootNode
+            
+            // Clear background for transparency
+            scene?.background.contents = UIColor.clear
+            
             setupLighting()
             print("✅ Loaded scene from: \(url.lastPathComponent)")
         } catch {
@@ -97,15 +101,10 @@ final class MaximooAnimationService {
     private func setupDefaultScene() {
         guard let scene = scene else { return }
         
-        setupLighting()
+        // Clear background for transparency
+        scene.background.contents = UIColor.clear
         
-        // Add floor
-        let floor = SCNFloor()
-        floor.reflectivity = 0.1
-        floor.firstMaterial?.diffuse.contents = UIColor.darkGray
-        let floorNode = SCNNode(geometry: floor)
-        floorNode.position = SCNVector3(0, 0, 0)
-        scene.rootNode.addChildNode(floorNode)
+        setupLighting()
     }
     
     // MARK: - Animation Loading & Playback
